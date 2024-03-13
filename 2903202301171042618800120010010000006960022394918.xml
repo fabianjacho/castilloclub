@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<autorizacion><estado>AUTORIZADO</estado><numeroAutorizacion>2903202301171042618800120010010000006960022394918</numeroAutorizacion><fechaAutorizacion>2023-03-29 22:41:44-05:00</fechaAutorizacion><comprobante><![CDATA[<?xml version="1.0" encoding="UTF-8"?><factura id="comprobante" version="1.0.0"><infoTributaria><ambiente>2</ambiente><tipoEmision>1</tipoEmision><razonSocial>PAVEL EDISON TORRES VALLADARES</razonSocial><nombreComercial>PAVEL EDISON TORRES VALLADARES</nombreComercial><ruc>1710426188001</ruc><claveAcceso>2903202301171042618800120010010000006960022394918</claveAcceso><codDoc>01</codDoc><estab>001</estab><ptoEmi>001</ptoEmi><secuencial>000000696</secuencial><dirMatriz>JUAN MONTALVO Y LEONIDAS PLAZA, CONOCOTO</dirMatriz></infoTributaria><infoFactura><fechaEmision>29/03/2023</fechaEmision><dirEstablecimiento>JUAN MONTALVO Y LEONIDAS PLAZA, CONOCOTO</dirEstablecimiento><obligadoContabilidad>NO</obligadoContabilidad><tipoIdentificacionComprador>04</tipoIdentificacionComprador><razonSocialComprador>CLUB CASTILLO DE AMAGUAÃ‘A</razonSocialComprador><identificacionComprador>1790296601001</identificacionComprador><direccionComprador>PABLO HERRERA OE4-234 Y BARON DE CARONDELET</direccionComprador><totalSinImpuestos>500.00</totalSinImpuestos><totalDescuento>0</totalDescuento><totalConImpuestos><totalImpuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><baseImponible>500.00</baseImponible><valor>60.00</valor></totalImpuesto></totalConImpuestos><propina>0</propina><importeTotal>560.00</importeTotal><moneda>DÃ³lar</moneda><pagos><pago><formaPago>20</formaPago><total>560.00</total><plazo>30</plazo><unidadTiempo>dÃ­as</unidadTiempo></pago></pagos></infoFactura><detalles><detalle><codigoPrincipal>S0000000008</codigoPrincipal><descripcion>Ajustes en Sistemas y Procesos del Club para funcionalidaes varias</descripcion><cantidad>1.00</cantidad><precioUnitario>500.00</precioUnitario><descuento>0</descuento><precioTotalSinImpuesto>500.00</precioTotalSinImpuesto><impuestos><impuesto><codigo>2</codigo><codigoPorcentaje>2</codigoPorcentaje><tarifa>12.00</tarifa><baseImponible>500.00</baseImponible><valor>60.00</valor></impuesto></impuestos></detalle></detalles><infoAdicional><campoAdicional nombre="Direccion">PABLO HERRERA OE4-234 Y BARON DE CARONDELET</campoAdicional><campoAdicional nombre="Email">sistemas@castillodeamaguana.com</campoAdicional><campoAdicional nombre="TelÃ©fono">022920323</campoAdicional></infoAdicional><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:etsi="http://uri.etsi.org/01903/v1.3.2#" Id="Signature96419">
+<ds:SignedInfo Id="Signature-SignedInfo28861">
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference Id="SignedPropertiesID340420" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature96419-SignedProperties821138">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>CVNk70/xvZ2ixRhRJAgVHyngPy0=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference URI="#Certificate1684888">
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>bqqJ11wKRiBVcJ20d7P0veCSHss=</ds:DigestValue>
+</ds:Reference>
+<ds:Reference Id="Reference-ID-170992" URI="#comprobante">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>eJKQin6hf0GDt/mPOkjJdJ4Jmz4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue Id="SignatureValue411544">
+c4wk+fkCw+E9oBViisJ316K+PpyAAmQTftU37nSlix0ErUh17PmqUVnyuSAKCHWebg1dfsXbBEy0
+TIDNrBaBtB1OkCYuQAxlqarMFwAEwZUakT2+Sm4MadG6/ooekesf3fiSr0s4/J0ri2MI7xXDW+eG
+DBkoT8Hj0lTD8JPX9rxOvis1lURC3g7yf/HAyRmLuiqt5rPJkkYyEkXL+dqVfowc0mpoSZOTJJMJ
+AZjBVXG4iJLXN17AgSwp3Er0KceQX5i82BtgCMK5vLUY4VGfDlBhCjf6bDkRbKIiPn+N9FUbMFL0
+P7U5i/0ZwTRzCm8T9SHiXpU7FN6Idk4HC8iDvg==
+</ds:SignatureValue>
+<ds:KeyInfo Id="Certificate1684888">
+<ds:X509Data>
+<ds:X509Certificate>
+MIIJrTCCB5WgAwIBAgIEW21XMTANBgkqhkiG9w0BAQsFADCBoTELMAkGA1UEBhMCRUMxIjAgBgNV
+BAoTGUJBTkNPIENFTlRSQUwgREVMIEVDVUFET1IxNzA1BgNVBAsTLkVOVElEQUQgREUgQ0VSVElG
+SUNBQ0lPTiBERSBJTkZPUk1BQ0lPTi1FQ0lCQ0UxDjAMBgNVBAcTBVFVSVRPMSUwIwYDVQQDExxB
+QyBCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMB4XDTIyMDYzMDEyNTMzNVoXDTI0MDYzMDEzMjMz
+NVowgbYxCzAJBgNVBAYTAkVDMSIwIAYDVQQKExlCQU5DTyBDRU5UUkFMIERFTCBFQ1VBRE9SMTcw
+NQYDVQQLEy5FTlRJREFEIERFIENFUlRJRklDQUNJT04gREUgSU5GT1JNQUNJT04tRUNJQkNFMQ4w
+DAYDVQQHEwVRVUlUTzE6MBEGA1UEBRMKMDAwMDQ3Mjc3MjAlBgNVBAMTHlBBVkVMIEVESVNPTiBU
+T1JSRVMgVkFMTEFEQVJFUzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKht8HXir4Yy
+BOoclnCDgz2MM5COZApyRKwpsKNY4vQX+GodeZwl5irrpeHL8SiYudZV3DB8MYOQO93UCAdLrIF4
+1qU6eUFaLJwnJ+3g4PeljDc9DX2YMtq3J63v/JEMS+YA+/YgEfMBC4gN5WaCuiCgR/CaUN73eJQK
+CNy/+y1Zb4GAbRWLbLUOmL+OTrmdSTHqN4NbScRiqLUswH59zj8hBMtm+2vkZCzLWOE/q8WLXH9R
+Cagph7ZYw60sLkPxASWR+aDseUDZuMhBm2gWDS1ArR84xHhdKjIizVMtqMoHJ1cKgabiniG43Q7U
+F7tR56jGAotvbMKQ94pXPutGXkUCAwEAAaOCBNQwggTQMAsGA1UdDwQEAwIHgDBmBgNVHSAEXzBd
+MFsGCysGAQQBgqg7AgEBMEwwSgYIKwYBBQUHAgEWPmh0dHA6Ly93d3cuZWNpLmJjZS5lYy9wb2xp
+dGljYS1jZXJ0aWZpY2Fkby9wZXJzb25hLW5hdHVyYWwucGRmMIGRBggrBgEFBQcBAQSBhDCBgTA+
+BggrBgEFBQcwAYYyaHR0cDovL29jc3AuZWNpLmJjZS5lYy9lamJjYS9wdWJsaWN3ZWIvc3RhdHVz
+L29jc3AwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMS5lY2kuYmNlLmVjL2VqYmNhL3B1YmxpY3dl
+Yi9zdGF0dXMvb2NzcDAaBgorBgEEAYKoOwMBBAwTCjE3MTA0MjYxODgwHAYKKwYBBAGCqDsDAgQO
+EwxQQVZFTCBFRElTT04wFgYKKwYBBAGCqDsDAwQIEwZUT1JSRVMwGgYKKwYBBAGCqDsDBAQMEwpW
+QUxMQURBUkVTMC4GCisGAQQBgqg7AwcEIBMeSlVBTiBNT05UQUxWTyBZIExFT05JREFTIFBMQVpB
+MBkGCisGAQQBgqg7AwgECxMJMDIyMDc1NjEzMBUGCisGAQQBgqg7AwkEBxMFUXVpdG8wFwYKKwYB
+BAGCqDsDDAQJEwdFQ1VBRE9SMB0GCisGAQQBgqg7AwsEDxMNMTcxMDQyNjE4ODAwMTAgBgorBgEE
+AYKoOwMzBBITEFNPRlRXQVJFLUFSQ0hJVk8wIwYDVR0RBBwwGoEYcGF2ZWxfdG9ycmVzQGhvdG1h
+aWwuY29tMIIB4QYDVR0fBIIB2DCCAdQwggHQoIIBzKCCAciGgdZsZGFwOi8vYmNlcWxkYXBzdWJw
+MS5iY2UuZWMvY249Q1JMMTQ5Nixjbj1BQyUyMEJBTkNPJTIwQ0VOVFJBTCUyMERFTCUyMEVDVUFE
+T1IsbD1RVUlUTyxvdT1FTlRJREFEJTIwREUlMjBDRVJUSUZJQ0FDSU9OJTIwREUlMjBJTkZPUk1B
+Q0lPTi1FQ0lCQ0Usbz1CQU5DTyUyMENFTlRSQUwlMjBERUwlMjBFQ1VBRE9SLGM9RUM/Y2VydGlm
+aWNhdGVSZXZvY2F0aW9uTGlzdD9iYXNlhjRodHRwOi8vd3d3LmVjaS5iY2UuZWMvQ1JML2VjaV9i
+Y2VfZWNfY3JsZmlsZWNvbWIuY3JspIG2MIGzMQswCQYDVQQGEwJFQzEiMCAGA1UEChMZQkFOQ08g
+Q0VOVFJBTCBERUwgRUNVQURPUjE3MDUGA1UECxMuRU5USURBRCBERSBDRVJUSUZJQ0FDSU9OIERF
+IElORk9STUFDSU9OLUVDSUJDRTEOMAwGA1UEBxMFUVVJVE8xJTAjBgNVBAMTHEFDIEJBTkNPIENF
+TlRSQUwgREVMIEVDVUFET1IxEDAOBgNVBAMTB0NSTDE0OTYwKwYDVR0QBCQwIoAPMjAyMjA2MzAx
+MjUzMzVagQ8yMDI0MDYzMDEzMjMzNVowHwYDVR0jBBgwFoAUSKLfIx8d+CxReowDzUkypQnBlKsw
+HQYDVR0OBBYEFFgA0Psr1nN1DNLZ6zKBWFDadnBrMAkGA1UdEwQCMAAwGQYJKoZIhvZ9B0EABAww
+ChsEVjguMQMCBLAwDQYJKoZIhvcNAQELBQADggIBAHy/65doYXqIGW0IxEFV4EjfcrNkbSzTvgSq
+zy4XPVownJS1o7R4biqhAW84U4mllZdGBgP6Uwhqhm76xeQOV7mCRFmOqUmNKZvik7NA64Idj26w
+5eiU4JSSfnEk/cEPScKgTRbLz798qWIUFfP7mB//08ulANpLvDokKfQdM+BYjT+fmjTyG7m43Bqy
+Kz6j0RjZYoxU+QbsACd0lb2j46fupJKLzsB+/l6zpm3cvkBfQq7F4F4dbgDfqYBhat7hbxEsa9pt
+FProcYA7HLVMg1i9HlswkL/UEFmcM+m+1j6kpoLwp1djVA4dfkmBOccKCq9sdn+p/fYRskHUoU+T
+OKOApq1rCMQfGiSXvyH2O9+n0Stq20CSPHI6MaioKvug8ZwnNp2FBzL2h4cM5AF0KJVcUYKjvz2g
+e2T34MFvdfBqD+5kG1IJnU0ILud48Nhn/hjcIMMDC08LW36FXHcbHizWhpUlM4f1XFwS3U/ICRfv
+dqHAs21GzS28EgVEUKENnB6so/KMZ+uSjYIvuK4NklzhUG020VIefwzO5uOP9q/lyjaV9q9ML/E8
+qAurPIsUQ2KSfUrTbhjZ5dXjLmPVfocYtP6z6xxxet9Asjc81Tl+36p5FBAE+TgGP4X8qkJOIN1K
+wiQTOtxRN8UD8bs9N8yKx1RTmpeDgQhuZpqeqWI4
+</ds:X509Certificate>
+</ds:X509Data>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qG3wdeKvhjIE6hyWcIODPYwzkI5kCnJErCmwo1ji9Bf4ah15nCXmKuul4cvxKJi51lXcMHwxg5A7
+3dQIB0usgXjWpTp5QVosnCcn7eDg96WMNz0NfZgy2rcnre/8kQxL5gD79iAR8wELiA3lZoK6IKBH
+8JpQ3vd4lAoI3L/7LVlvgYBtFYtstQ6Yv45OuZ1JMeo3g1tJxGKotSzAfn3OPyEEy2b7a+RkLMtY
+4T+rxYtcf1EJqCmHtljDrSwuQ/EBJZH5oOx5QNm4yEGbaBYNLUCtHzjEeF0qMiLNUy2oygcnVwqB
+puKeIbjdDtQXu1HnqMYCi29swpD3ilc+60ZeRQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+</ds:KeyInfo>
+<ds:Object Id="Signature96419-Object522877"><etsi:QualifyingProperties Target="#Signature96419"><etsi:SignedProperties Id="Signature96419-SignedProperties821138"><etsi:SignedSignatureProperties><etsi:SigningTime>2023-03-29T22:41:33-05:00</etsi:SigningTime><etsi:SigningCertificate><etsi:Cert><etsi:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>gTzFFEmNwHPLlYKk0Hw4DKaYBR0=</ds:DigestValue></etsi:CertDigest><etsi:IssuerSerial><ds:X509IssuerName>CN=AC BANCO CENTRAL DEL ECUADOR,L=QUITO,OU=ENTIDAD DE CERTIFICACION DE INFORMACION-ECIBCE,O=BANCO CENTRAL DEL ECUADOR,C=EC</ds:X509IssuerName><ds:X509SerialNumber>1533892401</ds:X509SerialNumber></etsi:IssuerSerial></etsi:Cert></etsi:SigningCertificate></etsi:SignedSignatureProperties><etsi:SignedDataObjectProperties><etsi:DataObjectFormat ObjectReference="#Reference-ID-170992"><etsi:Description>contenido comprobante</etsi:Description><etsi:MimeType>text/xml</etsi:MimeType></etsi:DataObjectFormat></etsi:SignedDataObjectProperties></etsi:SignedProperties></etsi:QualifyingProperties></ds:Object></ds:Signature></factura>]]></comprobante></autorizacion>
